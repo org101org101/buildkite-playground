@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-sleep 5
+sleep 180
 
 echo "ok"
