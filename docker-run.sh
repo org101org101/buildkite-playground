@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -ex
 
 IMAGE="$1"
 if [[ -z "$IMAGE" ]]; then
