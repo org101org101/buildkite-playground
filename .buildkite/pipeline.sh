@@ -3,7 +3,7 @@
 cat <<EOF | buildkite-agent pipeline upload
 steps:
     - name: "🚀"
-      command: "./timeout.sh"
+      command: "./docker-run-default-image.sh ./timeout.sh"
       timeout_in_minutes: 1
       agents:
         - "queue=default"
